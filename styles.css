@@ -1,37 +1,35 @@
-/*index */
-#interfaz
-{
-position: absolute;
-background-color: rgb(194, 123, 97);
-border: 2px solid rgb(224, 188, 155);
-width:100%;
-height:15%;  
-margin-top:-10px;
-margin-left:-10px;
-margin-right:-22px;
-border-bottom-left-radius:10px ;
-border-bottom-right-radius:10px ;
 
+body{
+margin:0;    
 }
-
-.estilosUI
-{
-
-width:10%;
-height:12%;
-background-color: rgb(255, 183, 49);
-border-radius:4%;
-}
-
-#inicio
-{
-position:absolute;
-right:5%;
-top:2%;
-
+#interfaz {
+  
+    width: 100%; 
+    height:80px;
+    background-color: aquamarine;
+    text-align: right;
 }
 
 
+#seccion {
+    width: fit-content; 
+    margin-left: auto; 
+    margin-right: 40px; 
+}
+
+
+.estilosUI {
+    position: relative;
+    top:15px;
+    right:7%;
+    display: inline-block;  
+    padding: 10px 20px;    
+    background-color: lightblue; 
+    margin: 5px;            
+    border-radius: 5px;     
+    cursor: pointer;        
+  
+}
 
 
 
@@ -48,5 +46,3 @@ top:2%;
 
 
 
-
-/*fin index*/
