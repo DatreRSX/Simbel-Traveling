@@ -15,6 +15,15 @@ background-color: rgb(248, 233, 214);
     
 }
 
+#simbelTravels
+{
+position: absolute;
+font-family:Jolly Lodger;
+font-size:63px;
+left:5%;
+top:3px;    
+}
+
 #seccion {
     width: fit-content; 
     margin-left: auto; 
@@ -77,6 +86,7 @@ border-top:none;
 border-right:none;
   
 }
+
 
 
 
