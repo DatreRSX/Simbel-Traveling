@@ -14,8 +14,22 @@ border-bottom-right-radius:10px ;
 
 }
 
+.estilosUI
+{
 
+width:10%;
+height:12%;
+background-color: rgb(255, 183, 49);
+border-radius:4%;
+}
 
+#inicio
+{
+position:absolute;
+right:5%;
+top:2%;
+
+}
 
 
 
