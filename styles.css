@@ -355,7 +355,8 @@ font-family:"Arial";
 #cabeceraHabitaciones
 {
 position: relative;    
-width:100%;
+width:97%;
 height:auto;
 border-radius:6px;
+left:1.5%;
 }
