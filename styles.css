@@ -132,7 +132,7 @@ color:black;
 text-decoration: none;
 }
 
-#Textointrohabitacion
+#Textoinicio
 {
 font-family:"calibri";
 
@@ -142,7 +142,7 @@ padding:20px;
 
 }
 
-#titulohaticaiones1
+#tituloinicio1
 {
 font-family: 'Brush Script MT', cursive;
 color: #a85c10;
@@ -153,20 +153,27 @@ font-size:45px;
 }      
 
 
-/*Pagina Habitaciones*/
-
-#titulohaticaiones2
+#titulohabitaciones2
 {
 font-family: 'Brush Script MT', cursive;
 color: #a85c10;
+left:1%;   
+position:relative;
+text-align: center;  
+font-size:25px;  
+}      
 
-left:32%;   
+
+
+
+#tituloinicio2
+{
+font-family: 'Brush Script MT', cursive;
+color: #a85c10;
 position: absolute;
-
 left:-40%%;
 top: 30px;   
 position: relative;
-
 text-align: center;
 font-size:40px;
 }      
@@ -232,13 +239,13 @@ p {
     margin-bottom: 20px;
 }
 
-
+/*Pagina Habitaciones*/
 /*CONTENEDOR DE TEXTO*/
 
 #container {
     display: flex;
     justify-content: center;  /* Centra horizontalmente las tarjetas */
-    gap: 20px; /* Añade un espacio entre las tarjetas */
+    gap: 2px; /* Añade un espacio entre las tarjetas */
     padding: 40px;
     
 }
@@ -247,10 +254,11 @@ p {
 #card {
     background-color: #fff;
     border: 1px solid #ddd;
+    border-radius:10px;
     padding: 20px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+
 }
 
 #card:hover {
@@ -259,13 +267,14 @@ p {
     padding: 20px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+
 }
 
 #h3 {
-    font-size: 22px;
+    font-size: 27px;
     color: #a85c10; /* Color marrón para los títulos */
     margin-bottom: 15px;
+    font-family: 'Brush Script MT', cursive;
     
 }
 
@@ -284,6 +293,7 @@ p {
 
 
 #img1{
+    border-radius:10px;
     width: 400px;
 	height: 400px;
 	object-fit: cover;
@@ -294,7 +304,7 @@ p {
     display: flex;
     align-items: center; /* Alinea el texto con las líneas verticalmente */
     justify-content: center;
-    margin: 30px 0;
+    margin: 30px 10px;
    
 }
 
@@ -307,15 +317,45 @@ p {
 }
 
 .line-container .text {
-    font-size: 32px;
+    font-size: 45px;
     font-weight: bold;
     color: #a85c10;
     text-align: center;
     font-family: 'Brush Script MT';
+}
 
+#Textointrohabitacion
+{
+
+    font-family:"calibri";
+
+    width:65%;
+    margin:15px auto;   
+    padding:20px;
+    
+    
+}
+
+#p2
+{
+    font-family:"calibri";
+
+    width:65%;
+    margin:15px auto;   
+    padding:10px;
+
+}
 #textofinal
 {
 font-size:14px;
 font-family:"Arial";    
 
+}
+
+#cabeceraHabitaciones
+{
+position: relative;    
+width:100%;
+height:auto;
+border-radius:6px;
 }
