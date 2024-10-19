@@ -24,18 +24,18 @@ background-color: rgb(248, 233, 214);
 {
 position: absolute;
 font-family:Jolly Lodger;
-font-size:50px;
-left:2%;
-top:15px;    
+font-size:65px;
+left:1%;
+top:-2px;    
 }
 
 #simbelTravels1
 {
 position: absolute;
 font-family:Jolly Lodger;
-font-size:50px;
-left:15%;
-top:15px;    
+font-size:80px;
+left:11%;
+top:-5px;    
 }
 
 /*Estilo del nombre de la seccion de la pagina*/
@@ -43,8 +43,8 @@ top:15px;
 {
     position: absolute;
     font-family:Jolly Lodger;
-    font-size:40px;
-    left:27%;
+    font-size:45px;
+    left:25%;
     top:13px;    
 }
 
@@ -93,7 +93,7 @@ border-right:none;
 
 #servicios
 {
-    border:4.5px solid rgba(205, 133, 0, 0.494) ;
+border:4.5px solid rgba(205, 133, 0, 0.494) ;
 border-bottom:none;
 border-top:none;
 border-right:none;
