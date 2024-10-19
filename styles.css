@@ -20,9 +20,19 @@ background-color: rgb(248, 233, 214);
 position: absolute;
 font-family:Jolly Lodger;
 font-size:63px;
-left:5%;
+left:2%;
 top:3px;    
 }
+
+#tituloInicio
+{
+    position: absolute;
+    font-family:Jolly Lodger;
+    font-size:50px;
+    left:35%;
+    top:13px;    
+}
+
 
 #seccion {
     width: fit-content; 
@@ -33,7 +43,7 @@ top:3px;
 
 .estilosUI {
     font-family:Jolly Lodger;
-    font-size: 24px; /* Aumenta el tamaño de la fuente */
+    font-size: 24px; 
     line-height: 1; /* Controla la altura de línea para mantenerlo más compacto */
    position: relative;
     top:2px;
