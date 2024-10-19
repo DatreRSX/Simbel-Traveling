@@ -6,7 +6,8 @@ background-color: rgb(248, 233, 214);
 }
 
 
-#interfaz {
+#interfaz
+{
   border: 4px solid rgba(205, 133, 0, 0.494) ; 
   border-top:none;
   border-right:none;
@@ -15,8 +16,9 @@ background-color: rgb(248, 233, 214);
     height:83px;
     background-color: rgb(230, 193, 100);
     text-align: right;
-    
 }
+
+/*Estilo del nombre de la pagina*/
 
 #simbelTravels
 {
@@ -27,6 +29,16 @@ left:2%;
 top:15px;    
 }
 
+#simbelTravels1
+{
+position: absolute;
+font-family:Jolly Lodger;
+font-size:50px;
+left:15%;
+top:15px;    
+}
+
+/*Estilo del nombre de la seccion de la pagina*/
 #tituloInicio
 {
     position: absolute;
@@ -43,8 +55,10 @@ top:15px;
     margin-right: 40px; 
 }
 
+/* Estilos de los botones */
 
-.estilosUI {
+.estilosUI
+{
     font-family:Jolly Lodger;
     font-size: 24px; 
     line-height: 1; 
@@ -56,7 +70,6 @@ top:15px;
     background-color:  rgb(237, 225, 160); 
     margin:-3px;       
     cursor: pointer;        
-
 }
 
 
@@ -69,6 +82,7 @@ border-top:none;
 border-left:none;
 border-right:none;
 }
+
 #habitaciones
 {
 border:4.5px solid rgba(205, 133, 0, 0.494) ;
@@ -76,6 +90,7 @@ border-bottom:none;
 border-top:none;
 border-right:none;
 }
+
 #servicios
 {
     border:4.5px solid rgba(205, 133, 0, 0.494) ;
@@ -83,14 +98,16 @@ border-bottom:none;
 border-top:none;
 border-right:none;
 }
+
 #viajes
 {
 border:4.5px solid rgba(205, 133, 0, 0.494) ;
 border-bottom:none;
 border-top:none;
 border-right:none;
-  
+ 
 }
+
 #letsgo
 {
 border:4.5px solid rgba(205, 133, 0, 0.494) ;
