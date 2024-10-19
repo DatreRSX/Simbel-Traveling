@@ -38,6 +38,7 @@ left:11%;
 top:-5px;    
 }
 
+
 /*Estilo del nombre de la seccion de la pagina*/
 #tituloInicio
 {
@@ -148,10 +149,13 @@ position: absolute;
 text-align: center;    
 }      
 
+
+/*Pagina Habitaciones*/
+
 #titulohaticaiones2
 {
-    font-family: 'Brush Script MT', cursive;
-    color: #a85c10;
+font-family: 'Brush Script MT', cursive;
+color: #a85c10;
 left:32%;   
 position: absolute;
 text-align: center;
@@ -163,24 +167,29 @@ text-align: center;
     margin: 0 auto;
     padding: 40px 0;
 }
+
 .services {
     display: flex;
     justify-content: space-between;
 }
+
 .services ul {
     list-style-type: none;
     width: 45%;
     padding-left: 0;
 }
+
 .services ul li {
     margin-bottom: 10px;
     font-size: 18px;
     color: #a85c10;
 }
+
 .services ul li::before {
     content: '• ';
     color: #ff9900;
 }
+
 h2 {
     text-align: center;
     font-family: 'Brush Script MT', cursive;
@@ -188,6 +197,7 @@ h2 {
     color: #a85c10;
     margin: 40px 0 20px;
 }
+
 .divider {
     border: 0;
     height: 1px;
@@ -195,9 +205,91 @@ h2 {
     width: 60%;
     margin: 20px auto;
 }
+
 p {
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 20px;
+}
+
+/*CONTENEDOR DE TEXTO*/
+
+#container {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente las tarjetas */
+    gap: 20px; /* Añade un espacio entre las tarjetas */
+    padding: 40px;
+    
+}
+
+/*CONTENEDOR DE IMAGEN*/
+#card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#card:hover {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#h3 {
+    font-size: 22px;
+    color: #a85c10; /* Color marrón para los títulos */
+    margin-bottom: 15px;
+    
+}
+
+#p1 {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#p2 {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+}
+
+
+#img1{
+    width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+
+/*LINEA Y PRECIO*/
+.line-container {
+    display: flex;
+    align-items: center; /* Alinea el texto con las líneas verticalmente */
+    justify-content: center;
+    margin: 30px 0;
+   
+}
+
+.line-container .line {
+    flex-grow: 1; /* Hace que las líneas ocupen el espacio restante */
+    height: 1px; /* Altura de la línea */
+    background-color: #2b2929; /* Color de la línea */
+    margin: 0 10px; /* Espacio entre la línea y el texto */
+    border-top: 3px solid rgb(46, 42, 42);
+}
+
+.line-container .text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #a85c10;
+    text-align: center;
+    font-family: 'Brush Script MT';
 }
