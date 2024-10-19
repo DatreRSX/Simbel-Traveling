@@ -133,39 +133,53 @@ text-decoration: none;
 
 #Textointrohabitacion
 {
-font-size:18px;
+font-family:"calibri";
+
 width:55%;
 margin:20px auto;   
-padding:20px; 
+padding:20px;
+
 }
 
 #titulohaticaiones1
 {
-    font-family: 'Brush Script MT', cursive;
-    color: #a85c10;
-left:32%;   
+font-family: 'Brush Script MT', cursive;
+color: #a85c10;
+left:29%;   
 position: absolute;
-text-align: center;    
+text-align: center;  
+font-size:45px;  
 }      
 
 #titulohaticaiones2
 {
-    font-family: 'Brush Script MT', cursive;
-    color: #a85c10;
-left:32%;   
-position: absolute;
+font-family: 'Brush Script MT', cursive;
+color: #a85c10;
+left:-40%%;
+top: 30px;   
+position: relative;
 text-align: center;
-
+font-size:40px;
 }      
+
+#titulotextoinicio3
+{
+font-family:Travel;
+position: relative;
+text-align: center;    
+font-size:28px;
+}
 
 .content {
     width: 80%;
     margin: 0 auto;
     padding: 40px 0;
+  
 }
 .services {
     display: flex;
     justify-content: space-between;
+    font-family: calibri;
 }
 .services ul {
     list-style-type: none;
@@ -200,4 +214,10 @@ p {
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 20px;
+}
+
+#textofinal
+{
+font-size:14px;
+font-family:"Arial";    
 }
