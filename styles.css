@@ -134,19 +134,22 @@ text-decoration: none;
 
 #Textointrohabitacion
 {
-font-size:18px;
+font-family:"calibri";
+
 width:55%;
 margin:20px auto;   
-padding:20px; 
+padding:20px;
+
 }
 
 #titulohaticaiones1
 {
-    font-family: 'Brush Script MT', cursive;
-    color: #a85c10;
-left:32%;   
+font-family: 'Brush Script MT', cursive;
+color: #a85c10;
+left:29%;   
 position: absolute;
-text-align: center;    
+text-align: center;  
+font-size:45px;  
 }      
 
 
@@ -156,21 +159,37 @@ text-align: center;
 {
 font-family: 'Brush Script MT', cursive;
 color: #a85c10;
+
 left:32%;   
 position: absolute;
-text-align: center;
 
+left:-40%%;
+top: 30px;   
+position: relative;
+
+text-align: center;
+font-size:40px;
 }      
+
+#titulotextoinicio3
+{
+font-family:Travel;
+position: relative;
+text-align: center;    
+font-size:28px;
+}
 
 .content {
     width: 80%;
     margin: 0 auto;
     padding: 40px 0;
+  
 }
 
 .services {
     display: flex;
     justify-content: space-between;
+    font-family: calibri;
 }
 
 .services ul {
@@ -212,6 +231,7 @@ p {
     text-align: justify;
     margin-bottom: 20px;
 }
+
 
 /*CONTENEDOR DE TEXTO*/
 
@@ -292,4 +312,10 @@ p {
     color: #a85c10;
     text-align: center;
     font-family: 'Brush Script MT';
+
+#textofinal
+{
+font-size:14px;
+font-family:"Arial";    
+
 }
