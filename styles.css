@@ -383,7 +383,7 @@ form label
 form input[type="tel"]
 {
     width:30%;
-    padding: 10px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -393,7 +393,7 @@ form input[type="tel"]
 form input[type="text"]
 {
     width:60%;
-    padding: 10px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -402,7 +402,7 @@ form input[type="text"]
 form input[type="email"]
 {
     width: 45%;
-    padding: 10px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -431,7 +431,7 @@ form textarea
 {
   
     width: 50%;
-    padding: 10px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -447,19 +447,13 @@ form button
     color: black;
     font-family: 'Jolly Lodger', cursive;
     font-size: 24px;
-    padding: 10px 20px;
+    padding: 15px 23px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   
 }
 
-#comentarioss
-
-{
-position: relative;
-left:300px;
-}
 
 form button:hover 
 {
