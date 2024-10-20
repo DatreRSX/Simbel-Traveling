@@ -359,3 +359,109 @@ height:auto;
 border-radius:6px;
 left:1.5%;
 }
+
+/*Fotmularios :/ */
+form 
+{
+    font-family:Calibri;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 700px; /* Asegura un ancho máximo */
+}
+
+form label
+ {
+    
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+form input[type="tel"]
+{
+    width:30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+form input[type="text"]
+{
+    width:60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form input[type="email"]
+{
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+form input[type="date"]
+{
+    width:30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form select
+{
+    width:20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form textarea 
+{
+  
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+   
+}
+
+form button
+ {
+    position: relative;
+    left:40%;
+    text-align: center;
+    background-color: rgb(230, 193, 100);
+    color: black;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+#comentarioss
+
+{
+position: relative;
+left:300px;
+}
+
+form button:hover 
+{
+    background-color: rgb(237, 225, 160);
+}
