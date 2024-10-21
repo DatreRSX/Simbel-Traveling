@@ -182,13 +182,31 @@ font-size:28px;
     width: 80%;
     margin: 0 auto;
     padding: 40px 0;
+    font-family: calibri;
 }
 
-.services
+#texto1inicio
 {
-  /*  display: flex; */
-    justify-content: space-between;
-    font-family: calibri;
+    margin:100px;
+    width:50%;
+    height:20%;
+    text-align:left;
+    padding: 20px 20px 20px;
+    background-color:gray;
+    position:relative;    
+    
+    }
+#texto2inicio
+{
+top: -263px;
+margin:200px;
+width:50%;
+height:20%;
+text-align:left;
+padding: 20px 20px 20px;
+background-color:gray;
+position:relative;    
+
 }
 
 .services ul
