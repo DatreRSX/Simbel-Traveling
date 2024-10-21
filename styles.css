@@ -131,48 +131,20 @@ text-decoration: none;
 
 #Textoinicio
 {
-<<<<<<< HEAD
-font-size:48px;
-=======
 font-family:"calibri";
->>>>>>> 6855cda4fa1957259ef364b536ddab8f65db84c4
 width:55%;
 margin:20px auto;   
 padding:20px;
 }
 
-<<<<<<< HEAD
-#titulohaticaiones1
-{
-font-family: 'Brush Script MT', cursive;
-color: #a85c10;
-left:32%;   
-position: absolute;
-text-align: center; 
-font-size: 32px;   
-}      
-
-
-/*Pagina Habitaciones*/
-
-#titulohabitaciones2
-=======
 #tituloinicio1
->>>>>>> 6855cda4fa1957259ef364b536ddab8f65db84c4
 {
-font-size: 52;
 font-family: 'Brush Script MT', cursive;
 color: #a85c10;
-<<<<<<< HEAD
-left:32%;   
-text-align: center;
-
-=======
 left:29%;   
 position: absolute;
 text-align: center;  
 font-size:45px;  
->>>>>>> 6855cda4fa1957259ef364b536ddab8f65db84c4
 }      
 
 #titulohabitaciones2
@@ -240,12 +212,8 @@ font-size:28px;
     color: #ff9900;
 }
 
-<<<<<<< HEAD
-#h2 {
-=======
 h2
 {
->>>>>>> 6855cda4fa1957259ef364b536ddab8f65db84c4
     text-align: center;
     font-family: 'Brush Script MT', cursive;
     font-size: 36px;
@@ -359,147 +327,6 @@ p
     font-family: 'Brush Script MT';
 }
 
-<<<<<<< HEAD
-/* Pagina de viajes */
-.line-container2 {
-    display: flex;
-    align-items: center; /* Alinea el texto con las líneas verticalmente */
-    justify-content: center;
-    margin: 30px 0;
-   
-}
-
-.line-container2 .line2 {
-    flex-grow: 1; /* Hace que las líneas ocupen el espacio restante */
-    height: 1px; /* Altura de la línea */
-    background-color: #2b2929; /* Color de la línea */
-    margin: 0 10px; /* Espacio entre la línea y el texto */
-    border-top: 2px solid rgb(46, 42, 42);
-}
-
-.line-container2 .text2 {
-    font-size: 42px;
-    font-weight: bold;
-    color: #a85c10;
-    text-align: center;
-    font-family: 'Brush Script MT';
-}
-
-header {
-    text-align: center;
-    
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 24px;
-    color: #333;
-}
-
-header p {
-    color: #777;
-    font-size: 16px;
-}
-
-/* Itinerarios */
-.itinerarios {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-  
-}
-
-.itinerario {
-    margin: 10px;
-    flex: 1 1 200px;
-    text-align: center;
-}
-
-.itinerario img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.itinerario p {
-    margin: 10px 0;
-    font-weight: bold;
-    color: #333;
-}
-
-/* Sección del mapa */
-.mapa {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    
-}
-
-.mapa img {
-    width: 50%;
-    border-radius: 8px;
-}
-
-.descripcion {
-    padding-left: 20px;
-}
-
-.descripcion h2 {
-    font-size: 22px;
-    color: #333;
-}
-
-.descripcion p {
-    color: #777;
-}
-
-.boton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #a16a41;
-   
-    text-decoration: none;
-    border-radius: 4px;
-    margin-top: 10px;
-}
-
-.boton:hover {
-    background-color: #7e4f32;
-}
-
-/* Responsiveness */
-@media (max-width: 768px) {
-    .itinerarios {
-        flex-direction: column;
-    }
-    
-    .mapa {
-        flex-direction: column;
-    }
-    
-    .mapa img {
-        width: 100%;
-    }
-}
-#textoimagenes2 {
-    font-size: 27px;
-    font-weight: bold;
-    color: #a85c10;
-    text-align: center;
-    font-family: 'Brush Script MT';
-}
-
-#Textointroviaje
-{
-font-size:16px;
-width:55%;
-margin:20px auto;   
-padding:20px; 
-text-align: center;
-}
-
-=======
 #Textointrohabitacion
 {
     font-family:"calibri";
@@ -632,4 +459,3 @@ form button:hover
 {
     background-color: rgb(237, 225, 160);
 }
->>>>>>> 6855cda4fa1957259ef364b536ddab8f65db84c4
