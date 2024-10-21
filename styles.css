@@ -186,7 +186,7 @@ font-size:28px;
 
 .services
 {
-    display: flex;
+  /*  display: flex; */
     justify-content: space-between;
     font-family: calibri;
 }
@@ -202,7 +202,7 @@ font-size:28px;
 {
     margin-bottom: 10px;
     font-size: 18px;
-    color: #a85c10;
+    color: #a83b10;
 }
 
 .services ul li::before 
