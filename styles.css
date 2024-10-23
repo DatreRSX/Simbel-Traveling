@@ -814,7 +814,6 @@ font-size: 45px;
     padding: 30px;
     margin-top:80px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 #SubtituloFinaViajes
@@ -851,7 +850,7 @@ padding:15px;
     left:38px;
     width: 95%;
     height:1300px; 
-border-radius: 9px;
+    border-radius: 9px;
     background-color: #ccc; 
 }
 
