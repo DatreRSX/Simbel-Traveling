@@ -47,7 +47,16 @@ top:-5px;
     position: absolute;
     font-family:Jolly Lodger;
     font-size:45px;
-    left:25%;
+    left:320px;
+    top:13px;    
+}
+
+#tituloInicioHabitaciones
+{
+    position: absolute;
+    font-family:Jolly Lodger;
+    font-size:45px;
+    left:365px;
     top:13px;    
 }
 
